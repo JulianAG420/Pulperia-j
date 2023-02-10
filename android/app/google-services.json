@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "858882131154",
+    "project_id": "pulperia-j-d254a",
+    "storage_bucket": "pulperia-j-d254a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858882131154:android:ed96030984c5f8fed6990b",
+        "android_client_info": {
+          "package_name": "com.jaguirre10420.pulperiaj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858882131154-5qfvc2euhtj543ctmbvij4k0js2gcsom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaguirre10420.pulperiaj",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "858882131154-1cfr8ju3npgdnkgtdnih1dj8fuhni4tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc_G4cuYX_y1TAyEjgmIggUnSnOLiHGuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858882131154-1cfr8ju3npgdnkgtdnih1dj8fuhni4tn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "858882131154-rme997orrlbm117ph8u8gnhfqhbdlegg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jaguirre10420.pulperiaj"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
