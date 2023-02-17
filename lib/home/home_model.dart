@@ -1,8 +1,10 @@
 import '../auth/auth_util.dart';
 import '../backend/backend.dart';
+import '../components/bs_factura_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../flutter_flow/custom_functions.dart' as functions;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -14,6 +16,12 @@ class HomeModel extends FlutterFlowModel {
   // State field(s) for txtnombreproducto widget.
   TextEditingController? txtnombreproductoController;
   String? Function(BuildContext, String?)? txtnombreproductoControllerValidator;
+  // State field(s) for txtNumero1 widget.
+  TextEditingController? txtNumero1Controller;
+  String? Function(BuildContext, String?)? txtNumero1ControllerValidator;
+  // State field(s) for txtNumero2 widget.
+  TextEditingController? txtNumero2Controller;
+  String? Function(BuildContext, String?)? txtNumero2ControllerValidator;
 
   /// Initialization and disposal methods.
 
@@ -21,6 +29,8 @@ class HomeModel extends FlutterFlowModel {
 
   void dispose() {
     txtnombreproductoController?.dispose();
+    txtNumero1Controller?.dispose();
+    txtNumero2Controller?.dispose();
   }
 
   /// Additional helper methods are added here.

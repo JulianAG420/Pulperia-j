@@ -26,8 +26,8 @@ class _LoginWidgetState extends State<LoginWidget> {
     super.initState();
     _model = createModel(context, () => LoginModel());
 
-    _model.txtUsuarioController = TextEditingController();
-    _model.txtClaveController = TextEditingController();
+    _model.txtUsuarioController ??= TextEditingController();
+    _model.txtClaveController ??= TextEditingController();
   }
 
   @override
@@ -91,8 +91,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                             ),
                             focusedBorder: UnderlineInputBorder(
                               borderSide: BorderSide(
-                                color:
-                                    FlutterFlowTheme.of(context).secondaryText,
+                                color: Color(0x00000000),
                                 width: 1,
                               ),
                               borderRadius: BorderRadius.circular(20),

@@ -78,14 +78,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               appStateNotifier.loggedIn ? HomeWidget() : LoginWidget(),
           routes: [
             FFRoute(
-              name: 'Login',
-              path: 'login',
-              builder: (context, params) => LoginWidget(),
-            ),
-            FFRoute(
               name: 'Home',
               path: 'home',
               builder: (context, params) => HomeWidget(),
+            ),
+            FFRoute(
+              name: 'Login',
+              path: 'login',
+              builder: (context, params) => LoginWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),
